@@ -57,7 +57,7 @@ func main() {
 	r.HandleFunc("/bookmarks", func (w http.ResponseWriter, r *http.Request) {
 		templ := template.Must(template.ParseFiles("template/index.html"))
 
-		bookmarks := loadDataFromFile("test_data.json")
+		bookmarks := loadDataFromFile("./data/test_data.json")
 		pageData := PageData{
 			Title: "Bookmarks",
 			Bookmarks: bookmarks,
