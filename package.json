@@ -1,0 +1,22 @@
+{
+  "name": "@aronlebani/go-bookmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aronlebani/go-bookmark.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aronlebani/go-bookmark/issues"
+  },
+  "homepage": "https://github.com/aronlebani/go-bookmark#readme",
+  "dependencies": {
+    "bookmark-parser": "^0.1.6"
+  }
+}
