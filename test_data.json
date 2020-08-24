@@ -1,0 +1,18 @@
+{
+  "collections": [{
+    "name": "Tech",
+    "bookmarks": [{
+      "name": "Flexbox guide",
+      "href": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+    }, {
+      "name": "Oh Shit, Git!?!",
+      "href": "https://ohshitgit.com/"
+    }]
+  }, {
+    "name": "Guitar",
+    "bookmarks": [{
+      "name": "Easy guitar songs",
+      "href": "https://nationalguitaracademy.com/easy-songs-on-guitar/"
+    }]
+  }]
+}

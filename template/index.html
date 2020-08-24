@@ -1,10 +1,18 @@
-<h1>{{.PageTitle}}</h1>
-<ul>
-    {{range .Todos}}
-        {{if .Done}}
-            <li class="done">{{.Title}}</li>
-        {{else}}
-            <li>{{.Title}}</li>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Invoice</title>
+    <link rel="stylesheet" href="/static/css/index.css" />
+  </head>
+  <body>
+    <h1>{{.Title}}</h1>
+    {{range .Bookmarks.Collections}}
+      <h2>{{.Name}}</h2>
+      <ul>
+        {{range .Bookmarks}}
+          <li>{{.Name}}: {{.Href}}</li>
         {{end}}
+      </ul>
     {{end}}
-</ul>
+  </body>
+</html>
